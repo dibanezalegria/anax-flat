@@ -4,4 +4,4 @@ titleBreadcrumb: Reports
 Index
 ===============================
 
-Se varje kurmoment i menyn till vänster.
+Se varje kursmoment i menyn till vänster.
