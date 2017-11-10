@@ -5,7 +5,7 @@ This is a sample file on how to use Markdown together with Anax. Review its sour
 
 
 
-Linking to other pages {#url}
+Linking to other pages
 ---------------------------------
 
 I can link to another document. In the same directory like the file [license.md](license). Or in another directory like [report/kmom01](report/kmom01).
@@ -16,7 +16,7 @@ You can find a copy of this file in the subdirectory [`content/example/markdown.
 
 
 
-Linking to image sources {#img}
+Linking to image sources
 ---------------------------------
 
 Linking to image sources works in the same manner as linking to other pages. Anax will prepend the base url to all relative image sources.
@@ -38,7 +38,7 @@ So, all image sources are relative the htdocs directory.
 
 
 
-Linking to assets/resources {#asset}
+Linking to assets/resources
 ---------------------------------
 
 What if I want to create a link to another asset, for example a php-page, a pdf-document or an image to be displayed in its own tab?
@@ -65,7 +65,7 @@ Here is an example of creating a relative link to a image.
 
 
 
-Creating a mailto: link {#mailto}
+Creating a mailto: link
 ---------------------------------
 
 You can create a mailto link using Markdown or HTML. It looks like this.
