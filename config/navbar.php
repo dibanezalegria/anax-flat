@@ -17,26 +17,32 @@ return [
             "home" => [
                 "text"  => t("Hem"),
                 "url"   => $this->di->get("url")->create("index"),
-                "title" => t("Home"),
+                "title" => t("Hem"),
                 "mark-if-parent" => true,
             ],
 
             "report" => [
                 "text"  => t("Redovisning"),
                 "url"   => $this->di->get("url")->create("report"),
-                "title" => t("Reports from kmom assignments")
+                "title" => t("Redovisningar")
             ],
 
             "about" => [
                 "text"  => t("Om"),
                 "url"   => $this->di->get("url")->create("about"),
-                "title" => t("About this website")
+                "title" => t("Om sidan")
             ],
 
-            "markdown" => [
-                "text"  => t("Markdown"),
-                "url"   => $this->di->get("url")->create("markdown"),
-                "title" => t("Markdown")
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid?vgrid"),
+                "title" => t("Grid")
+            ],
+
+            "typography" => [
+                "text"  => t("Typografi"),
+                "url"   => $this->di->get("url")->create("typography?hgrid"),
+                "title" => t("Typografi")
             ],
         ],
     ],
@@ -57,26 +63,32 @@ return [
             "home" => [
                 "text"  => t("Hem"),
                 "url"   => $this->di->get("url")->create("index"),
-                "title" => t("Home"),
+                "title" => t("Hem"),
                 "mark-if-parent" => true,
             ],
 
             "report" => [
-                "text"  => t("Report"),
+                "text"  => t("Redovisning"),
                 "url"   => $this->di->get("url")->create("report"),
-                "title" => t("Reports from kmom assignments"),
+                "title" => t("Redovisningar"),
             ],
 
             "about" => [
-                "text"  => t("About"),
+                "text"  => t("Om sidan"),
                 "url"   => $this->di->get("url")->create("about"),
-                "title" => t("About this website")
+                "title" => t("Om sidan")
             ],
 
-            "markdown" => [
-                "text"  => t("Markdown"),
-                "url"   => $this->di->get("url")->create("markdown"),
-                "title" => t("Markdown")
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid?vgrid"),
+                "title" => t("Grid")
+            ],
+
+            "typography" => [
+                "text"  => t("Typografi"),
+                "url"   => $this->di->get("url")->create("typography?hgrid"),
+                "title" => t("Typografi")
             ],
         ],
     ],
