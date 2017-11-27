@@ -21,18 +21,6 @@ return [
                 "mark-if-parent" => true,
             ],
 
-            "report" => [
-                "text"  => t("Redovisning"),
-                "url"   => $this->di->get("url")->create("report"),
-                "title" => t("Redovisningar")
-            ],
-
-            "about" => [
-                "text"  => t("Om"),
-                "url"   => $this->di->get("url")->create("about"),
-                "title" => t("Om sidan")
-            ],
-
             "grid" => [
                 "text"  => t("Grid"),
                 "url"   => $this->di->get("url")->create("grid?vgrid"),
@@ -43,6 +31,30 @@ return [
                 "text"  => t("Typografi"),
                 "url"   => $this->di->get("url")->create("typography?hgrid"),
                 "title" => t("Typografi")
+            ],
+
+            "theme" => [
+                "text"  => t("Teman"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Teman")
+            ],
+
+            "analysis" => [
+                "text"  => t("Analys"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analys")
+            ],
+
+            "about" => [
+                "text"  => t("Om"),
+                "url"   => $this->di->get("url")->create("about"),
+                "title" => t("Om sidan")
+            ],
+
+            "report" => [
+                "text"  => t("Redovisning"),
+                "url"   => $this->di->get("url")->create("report"),
+                "title" => t("Redovisningar")
             ],
         ],
     ],
@@ -67,18 +79,6 @@ return [
                 "mark-if-parent" => true,
             ],
 
-            "report" => [
-                "text"  => t("Redovisning"),
-                "url"   => $this->di->get("url")->create("report"),
-                "title" => t("Redovisningar"),
-            ],
-
-            "about" => [
-                "text"  => t("Om sidan"),
-                "url"   => $this->di->get("url")->create("about"),
-                "title" => t("Om sidan")
-            ],
-
             "grid" => [
                 "text"  => t("Grid"),
                 "url"   => $this->di->get("url")->create("grid?vgrid"),
@@ -89,6 +89,30 @@ return [
                 "text"  => t("Typografi"),
                 "url"   => $this->di->get("url")->create("typography?hgrid"),
                 "title" => t("Typografi")
+            ],
+
+            "theme" => [
+                "text"  => t("Teman"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Teman")
+            ],
+
+            "analysis" => [
+                "text"  => t("Analys"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analys")
+            ],
+
+            "about" => [
+                "text"  => t("Om"),
+                "url"   => $this->di->get("url")->create("about"),
+                "title" => t("Om sidan")
+            ],
+
+            "report" => [
+                "text"  => t("Redovisning"),
+                "url"   => $this->di->get("url")->create("report"),
+                "title" => t("Redovisningar")
             ],
         ],
     ],
