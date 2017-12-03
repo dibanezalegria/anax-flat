@@ -7,7 +7,7 @@ Jag har valt att göra uppgiften ensam.
 
 ##Ryanair
 
-![Ryanair](img/ryanair.jpg)
+[FIGURE src="image/ryanair.jpg"]
 
 ###Färgpaletten
 
@@ -31,7 +31,7 @@ Sidans typsnitt är Roboto som är ett sans-serif-typsnitt designad av Christian
 
 ##Barcelona FC
 
-![Barcelona](img/barca.jpg)
+[FIGURE src="image/barca.jpg"]
 
 ###Färgpaletten
 
@@ -55,7 +55,7 @@ Sidans typsnitt är Roboto som är ett sans-serif-typsnitt. Typsnittet används 
 
 ##Bokus
 
-![Bokus](img/bokus.jpg)
+[FIGURE src="image/bokus.jpg"]
 
 ###Färgpaletten
 

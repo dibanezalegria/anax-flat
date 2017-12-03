@@ -4,7 +4,7 @@ titleBreadcrumb: Home
 Min me-sida
 ===========
 
-<img src="img/teide.jpg" alt="web image">
+[FIGURE src="image/teide.jpg"]
 
 Hej och välkommen!
 
