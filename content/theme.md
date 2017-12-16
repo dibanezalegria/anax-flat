@@ -1,7 +1,7 @@
 Teman
 =====
 
-Du kan ändra teman genom [temaväljaren](theme-selector).
+[Temaväljaren](theme-selector)
 
 ###Base
 

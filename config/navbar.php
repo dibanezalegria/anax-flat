@@ -14,13 +14,6 @@ return [
         // Here comes the menu structure
         "items" => [
 
-            "home" => [
-                "text"  => t("Hem"),
-                "url"   => $this->di->get("url")->create("index"),
-                "title" => t("Hem"),
-                "mark-if-parent" => true,
-            ],
-
             "analysis" => [
                 "text"  => t("Analys"),
                 "url"   => $this->di->get("url")->create("analysis"),
@@ -68,6 +61,18 @@ return [
                 "text"  => t("Blogg"),
                 "url"   => $this->di->get("url")->create("blog"),
                 "title" => t("Blogg")
+            ],
+
+            "delement" => [
+                "text"  => t("D-element"),
+                "url"   => $this->di->get("url")->create("design-element"),
+                "title" => t("Design Element")
+            ],
+
+            "dprinciple" => [
+                "text"  => t("D-principer"),
+                "url"   => $this->di->get("url")->create("design-principle"),
+                "title" => t("Design Principer")
             ],
 
         ],
@@ -86,13 +91,6 @@ return [
         // Here comes the menu structure
         "items" => [
 
-            "home" => [
-                "text"  => t("Hem"),
-                "url"   => $this->di->get("url")->create("index"),
-                "title" => t("Hem"),
-                "mark-if-parent" => true,
-            ],
-
             "analysis" => [
                 "text"  => t("Analys"),
                 "url"   => $this->di->get("url")->create("analysis"),
@@ -140,6 +138,18 @@ return [
                 "text"  => t("Blogg"),
                 "url"   => $this->di->get("url")->create("blog"),
                 "title" => t("Blogg")
+            ],
+
+            "delement" => [
+                "text"  => t("D-element"),
+                "url"   => $this->di->get("url")->create("design-element"),
+                "title" => t("Design Element")
+            ],
+
+            "dprinciple" => [
+                "text"  => t("D-principer"),
+                "url"   => $this->di->get("url")->create("design-principer"),
+                "title" => t("Design Principer")
             ],
         ],
     ],

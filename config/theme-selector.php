@@ -61,10 +61,36 @@ return [
 
         "separator2" => "------------------------------------------------",
 
-        "fun"       => [
-            "title"      => "All fun, test and play, make it stand out! (INTE GJORT)",
-            "class"      => "fun",
-            "stylesheets" => []
+        "element1"      => [
+            "title"      => "Design element #1",
+            "class"      => "element1",
+            "stylesheets" => ["css/element1.min.css"]
+        ],
+
+        "element2"      => [
+            "title"      => "Design element #2",
+            "class"      => "element2",
+            "stylesheets" => ["css/element2.min.css"]
+        ],
+
+        "element3"      => [
+            "title"      => "Design element #3",
+            "class"      => "element3",
+            "stylesheets" => ["css/element3.min.css"]
+        ],
+
+        "separator3" => "------------------------------------------------",
+
+        "principle1"      => [
+            "title"      => "Design principle #1",
+            "class"      => "principle1",
+            "stylesheets" => ["css/principle1.min.css"]
+        ],
+
+        "principle2"      => [
+            "title"      => "Design principle #2",
+            "class"      => "principle2",
+            "stylesheets" => ["css/principle2.min.css"]
         ],
     ]
 ];
